@@ -35,10 +35,10 @@ for r in range(0, 175, 25): # r from 0 to 175, step 25
 cv2.imshow("Canvas", canvas)
 cv2.waitKey(0)
 
-for i in range(0, 25):
-    radius = np.random.randint(5, high = 200)
-    color = np.random.randint(0, high = 256, size = (3, )).tolist()
-    pt = np.random.randint(0, high = 300, size = (2,))
+for i in range(0, 25): # create 25 circles
+    radius = np.random.randint(5, high = 200) # radius [5, 200)
+    color = np.random.randint(0, high = 256, size = (3, )).tolist() # return 3 numbers [0, 255]
+    pt = np.random.randint(0, high = 300, size = (2,)) # (x,y) at [0, 300) to draw the circle
 
     cv2.circle(canvas, tuple(pt), radius, color, -1)
 
