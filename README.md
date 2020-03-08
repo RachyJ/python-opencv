@@ -1,10 +1,10 @@
 # python-opencv
 
-Learning project for image processing knowledge. 
+Learning project for image processing and computer vision. 
 
 Samples are from book *Practical Python and OpenCV: An Instroductory, Example Driven Guide to Image Processing and Computer Vision* by Adrian Rosebrock.
 
-The original samples in the book are in Python 2 and I convert them to Python 3.
+The original samples in the book are in Python 2 and I convert them to Python 3 here.
 
 Learning notes:
 
